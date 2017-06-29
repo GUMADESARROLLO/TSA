@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Traking Services Aglosa</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Acceder</string>
+    <string name="action_sign_in_short">ACCEDER</string>
+    <string name="title_activity_agenda">AgendaActivity</string>
+    <string name="title_activity_marcar_registro">MarcarRegistroActivity</string>
+    <string name="title_activity_acciones">AccionesActivity</string>
+    <string name="title_activity_cobro_in">CobroInActivity</string>
+    <string name="title_activity_pedido">PedidoActivity</string>
+    <string name="title_activity_articulos">ArticulosActivity</string>
+    <string name="title_activity_detalles_articulo">DetallesArticuloActivity</string>
+    <string name="title_activity_indicadores_cliente">IndicadoresClienteActivity</string>
+    <string name="title_activity_resumen">ResumenActivity</string>
+    <string name="title_activity_cumpleanno">CumpleannoActivity</string>
+    <string name="title_activity_bandeja_pedidos">BandejaPedidosActivity</string>
+    <string name="title_activity_bandeja_cobros">BandejaCobrosActivity</string>
+    <string name="title_activity_rpt_hoy">RptHoyActivity</string>
+    <string name="resumen_direccion">Villa Fontana Club Terraza 150m. Oeste, Managua,Nicaragua</string>
+    <string name="resumen_empresa">UNIMARK S.A </string>
+
+    <string name="app_label">Buscar</string>
+    <string name="search_hint">Buscar</string>
+    <string name="search">Buscador</string>
+    <string name="action_settings">Buscador</string>
+    <string name="resumen_npedido">#PEDIDO</string>
+    <string name="atendio">#atendio</string>
+    <string name="resumen_name_vendedor">Nombre Vendedor:</string>
+    <string name="title_resumen_Descripcion">Descripción</string>
+    <string name="title_resumen_Total">Total</string>
+
+    <string-array name="array_transc">
+        <item>EFECTIVO</item>
+        <item>CHEQUE</item>
+        <item>TRANSFERENCIA</item>
+    </string-array>
+    <string name="title_activity_facturas">FacturasActivity</string>
+    <string name="prompt_user_id">USUARIO</string>
+    <string name="info_empry">No hay Informacion que Mostrar</string>
+
+    <string-array name="dias">
+        <item>LUNES</item>
+        <item>MARTES</item>
+        <item>MIERCOLES</item>
+        <item>JUEVES</item>
+        <item>VIERNES</item>
+    </string-array>
+
+
+    <string name="title_activity_crear_agenda">CrearAgendaActivity</string>
+    <string name="title_activity_clientes">ClientesActivity</string>
+    <string name="title_activity_compras">ComprasActivity</string>
+
+    <!-- Derechos -->
+    <string name="tag_derchos_1">Todos los Derechos Reservados © Aglosa S.A. 2017</string>
+    <string name="tag_derchos_2">Desarrollado por Gerencia Corp. IT - (505)2278-8787, Ext.130 - 134</string>
+    <string name="tag_derchos_3">www.aglosa.com</string>
+
+
+    <string name="intro">BIENVENIDO</string>
+    <string name="intro2">TRAKING SERVICES AGLOSA</string>
+    <string name="version">v1.0.1</string>
+    <string name="copy">Aglosa S.A © 2017 Todos los Derechos Reservados</string>
+
+</resources>
+
+

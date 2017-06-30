@@ -21,14 +21,14 @@
                 android:id="@+id/lst_fecha"
                 android:layout_height="wrap_content"
                 android:layout_width="100dp"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 tools:text="FECHA" />
             <TextView
                 android:id="@+id/lst_factura"
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 tools:text="FACTURA" />
             <TextView
                 android:gravity="center"
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 tools:text="ARTICULO" />
         </TableRow>
     </TableLayout>

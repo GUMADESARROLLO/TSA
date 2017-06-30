@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 tools:text="PRODUCTO" />
             <TextView
                 android:gravity="center"
@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 tools:text="FACTURA" />
             <TextView
                 android:gravity="center"
@@ -39,7 +39,7 @@
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 tools:text="DOCUMENTO" />
         </TableRow>
     </TableLayout>

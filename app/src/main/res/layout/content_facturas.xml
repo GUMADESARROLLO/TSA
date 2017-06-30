@@ -30,7 +30,7 @@
                 android:layout_width="100dp"
 
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="10dp"
                 android:text="VIA" />
             <TextView
                 android:id="@+id/tx2"
@@ -38,7 +38,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="10dp"
                 android:text="STATUS" />
             <TextView
                 android:id="@+id/tx3"
@@ -47,7 +47,7 @@
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:textColor="@color/white"
-                android:textSize="20dp"
+                android:textSize="10dp"
                 android:text="ACTUALIZADO" />
         </TableRow>
         <TableRow

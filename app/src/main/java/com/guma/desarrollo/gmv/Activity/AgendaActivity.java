@@ -129,11 +129,9 @@ public class AgendaActivity extends AppCompatActivity  implements ConnectivityRe
         //ESTILO PARA LA TABLA
         AssetManager assetMgr = getResources().getAssets();
         TextView tLabel1,tLabel2,tLabel3,tLabel4;
-        tLabel1 = (TextView) findViewById(R.id.t1);
         tLabel2 = (TextView) findViewById(R.id.t2);
         tLabel3 = (TextView) findViewById(R.id.t3);
         tLabel4 = (TextView) findViewById(R.id.t4);
-        tLabel1.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_bold.ttf"));
         tLabel2.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_bold.ttf"));
         tLabel3.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_bold.ttf"));
         tLabel4.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_bold.ttf"));

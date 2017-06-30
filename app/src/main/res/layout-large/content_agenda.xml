@@ -36,7 +36,7 @@
             >
             <TextView
                 android:id="@+id/t2"
-                android:textSize="10sp"
+                android:textSize="20sp"
                 android:textColor="@color/white"
                 android:layout_height="fill_parent"
                 android:layout_width="0dp"
@@ -46,7 +46,7 @@
 
             <TextView
                 android:id="@+id/t3"
-                android:textSize="10sp"
+                android:textSize="20sp"
                 android:textColor="@color/white"
                 android:layout_height="fill_parent"
                 android:layout_width="0dp"
@@ -55,7 +55,7 @@
                 />
             <TextView
                 android:id="@+id/t4"
-                android:textSize="10sp"
+                android:textSize="20sp"
                 android:textColor="@color/white"
                 android:layout_height="fill_parent"
                 android:layout_width="0dp"

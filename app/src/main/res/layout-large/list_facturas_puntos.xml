@@ -8,7 +8,7 @@
     android:paddingBottom="8dp"
     android:paddingTop="8dp">
     <TableLayout
-        android:padding="10dp"
+        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -17,30 +17,27 @@
         <TableRow
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-
             <TextView
-                android:id="@+id/lst_producto"
+                android:id="@+id/lst_fecha"
                 android:layout_height="wrap_content"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:textSize="15sp"
-                tools:text="PRODUCTO" />
+                android:layout_width="100dp"
+                android:textSize="20dp"
+                tools:text="FECHA" />
             <TextView
-                android:gravity="center"
                 android:id="@+id/lst_factura"
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="15sp"
+                android:textSize="20dp"
                 tools:text="FACTURA" />
             <TextView
                 android:gravity="center"
-                android:id="@+id/lst_documento"
+                android:id="@+id/lst_puntos"
                 android:layout_height="wrap_content"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:textSize="15sp"
-                tools:text="DOCUMENTO" />
+                android:textSize="20dp"
+                tools:text="ARTICULO" />
         </TableRow>
     </TableLayout>
 

@@ -34,19 +34,16 @@ public class Productos_Leads extends ArrayAdapter<Productos> {
            convertView = inflater.inflate(R.layout.list_productos,parent,false);
          }
 
-        TextView tBitacora  = (TextView) convertView.findViewById(R.id.lst_bitacora);
         TextView tProducto  = (TextView) convertView.findViewById(R.id.lst_producto);
         TextView tFactura   = (TextView) convertView.findViewById(R.id.lst_factura);
         TextView tDocumento = (TextView) convertView.findViewById(R.id.lst_documento);
 
-        tBitacora.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_light_italic.ttf"));
         tProducto.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_light_italic.ttf"));
         tFactura.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_light_italic.ttf"));
         tDocumento.setTypeface(Typeface.createFromAsset(assetMgr ,"fonts/roboto_light_italic.ttf"));
 
         Productos p = getItem(position);
 
-        tBitacora.setText(p.getmId());
         tProducto.setText(p.getmProducto());
         tFactura.setText(p.getmFactura());
         tDocumento.setText(p.getmDOc());
